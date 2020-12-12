@@ -1,0 +1,4 @@
+[02-May-2020 14:23:34 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 8192 bytes) in /home/u240788148/domains/ausprice.com/public_html/AusPrice/app/Http/Controllers/FeedController.php on line 48
+[03-May-2020 08:37:24 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /home/u240788148/domains/ausprice.com/public_html/AusPrice/app/Http/Controllers/FeedController.php on line 48
+[22-Jun-2020 13:03:32 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 524288 bytes) in /home/u240788148/domains/ausprice.com/public_html/AusPrice/app/Http/Controllers/FeedController.php on line 48
+[21-Jul-2020 05:23:59 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 524288 bytes) in /home/u240788148/domains/ausprice.com/public_html/AusPrice/app/Http/Controllers/FeedController.php on line 48
