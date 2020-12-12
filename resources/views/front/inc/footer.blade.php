@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="contact col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                    <h5>About AusPrice.Com</h5>
+                    <h5>About topshopping.com.au</h5>
                     <p>AusPrice is the top price comparison based shopping guide in Australia. It has been working to reach you to the thousands of online shops that can help you to find out the best price from all of the high profile competitors for fashion,electronice, apparel and others.</p>
                     <img src="{{asset('images/logo.png')}}" class="col-md-12">
                 </div>
@@ -101,7 +101,7 @@
 </script>
 <!-- JS Part End-->
 <script type="text/javascript">
-    
+
     $(window).on('load', function() {
 
         GetCategoryImage();

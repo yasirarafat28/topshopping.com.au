@@ -11,7 +11,7 @@
 
     <meta name="google-site-verification" content="OdeYRhwG0oozjKLpsaIq3xNoSIvhNMK66v-U-xudLFc" />
 
-    <meta name='keywords' content='AusPrice.Com, Australia Price Comparison, Fashion, Product, Compare Product Price, {{isset($keyword) ?$keyword: ''}}, {{isset($keyword_entry->relative_keyword)? $keyword_entry->relative_keyword:''}}'>
+    <meta name='keywords' content='topshopping.com.au, Australia Price Comparison, Fashion, Product, Compare Product Price, {{isset($keyword) ?$keyword: ''}}, {{isset($keyword_entry->relative_keyword)? $keyword_entry->relative_keyword:''}}'>
     <meta name='subject' content="{{App\Setting::setting()->tagline}}">
 
     <meta name='url' content='{{Illuminate\Support\Facades\URL::current()}}'>
@@ -37,7 +37,7 @@
                 {{App\Setting::setting()->tagline}}
             @endif
         @endif
-        | Ausprice.com
+        | topshopping.com.au
     </title>
     <!-- CSS Part Start-->
     <link rel="stylesheet" type="text/css" href="{{asset('frontNew/js/bootstrap/css/bootstrap.min.css')}}" />
@@ -66,7 +66,7 @@
                         <div class="links">
                             <ul>
                                 <!--<li class="mobile"><i class="fa fa-phone"></i>+91 9898777656</li>-->
-                                <li class="email"><a href="mailto:support@ausprice.com"><i class="fa fa-envelope"></i>support@ausprice.com</a></li>
+                                <li class="email"><a href="mailto:support@topshopping.com.au"><i class="fa fa-envelope"></i>support@topshopping.com.au</a></li>
 
                             </ul>
                         </div>
@@ -87,7 +87,7 @@
                 <div class="table-container">
                     <!-- Logo Start -->
                     <div class="col-table-cell col-lg-3 col-md-3 col-sm-12 col-xs-12 inner">
-                        <div id="logo" style="padding: 20px 0px;"><a href="{{url('/')}}"><img  class="img-responsive" src="{{asset('images/logo.png')}}" title="AusPrice.Com" alt="MarketShop" style="height: 60px;" /></a></div>
+                        <div id="logo" style="padding: 20px 0px;"><a href="{{url('/')}}"><img  class="img-responsive" src="{{asset('images/logo.png')}}" title="topshopping.com.au" alt="MarketShop" style="height: 60px;" /></a></div>
                     </div>
                     <!-- Logo End -->
                     <!-- Mini Cart End-->
