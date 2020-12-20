@@ -123,7 +123,7 @@
         <!-- Main Menu Start-->
 
         <nav id="menu" class="navbar">
-            <div class="navbar-header"> <span class="visible-xs visible-sm"> Categories <b></b></span></div>
+            <div class="navbar-header"> <span class="visible-xs visible-sm" style="font-size: 25px !important"> Categories <b></b></span></div>
             <div class="container">
                 <div class="collapse navbar-collapse navbar-ex1-collapse">
                     <ul class="nav navbar-nav">
