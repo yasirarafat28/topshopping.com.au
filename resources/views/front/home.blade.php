@@ -1,7 +1,7 @@
 
 @include('front/inc/header')
   <div id="container">
-    
+
     <div class="container">
       <div class="row">
         <!--Middle Part Start-->
@@ -14,7 +14,7 @@
           </div>
             @foreach($carousels as $carousel)
 
-          
+
               <!-- Categories Product Slider Start -->
               <h3 class="subtitle">{{$carousel->keyword}} - <a class="viewall" href="{{url('/')}}">view all</a></h3>
               <div class="owl-carousel latest_category_carousel">
@@ -67,7 +67,7 @@
     </div>
   </div>
   <!-- Feature Box Start-->
-    <div class="container">
+    {{-- <div class="container">
       <div class="custom-feature-box row">
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="feature-box fbox_1">
@@ -94,7 +94,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> --}}
     <!-- Feature Box End-->
 
 @include('front/inc/footer')

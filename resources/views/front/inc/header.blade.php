@@ -48,6 +48,16 @@
     <link rel="stylesheet" type="text/css" href="{{asset('frontNew/css/responsive.css')}}" />
     <link rel="stylesheet" type="text/css" href="{{asset('frontNew/css/stylesheet-skin2.css')}}" />
     <!-- CSS Part End-->
+
+    <style>
+        #header .header-row {
+            background-color: #fff !important;
+        }
+        #menu.navbar{
+            background-color: orangered;
+            font-weight: 600;
+        }
+    </style>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
