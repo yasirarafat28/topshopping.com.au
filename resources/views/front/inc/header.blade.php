@@ -57,6 +57,10 @@
             background-color: orangered;
             font-weight: 600;
         }
+
+        .dropdown-menu a{
+            color: black;
+        }
     </style>
 </head>
 <body>
