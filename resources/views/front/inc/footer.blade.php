@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="contact col-lg-3 col-md-3 col-sm-12 col-xs-12">
                     <h5>About topshopping.com.au</h5>
-                    <p>AusPrice is the top price comparison based shopping guide in Australia. It has been working to reach you to the thousands of online shops that can help you to find out the best price from all of the high profile competitors for fashion,electronice, apparel and others.</p>
+                    <p>TopShopping is the top price comparison based shopping guide in Australia. It has been working to reach you to the thousands of online shops that can help you to find out the best price from all of the high profile competitors for fashion,electronice, apparel and others.</p>
                     <img src="{{asset('images/logo.png')}}" class="col-md-12">
                 </div>
                 <div class="column col-lg-3 col-md-3 col-sm-3 col-xs-12">
@@ -46,7 +46,7 @@
         <div class="container">
             <div id="powered" class="clearfix">
                 <div class="powered_text pull-left flip">
-                    <p><a href="{{url('')}}">AusPrice</a> © {{date("Y")}} | Design and Developed By <a href="#">SoftNTechnology</a></p>
+                    <p><a href="{{url('')}}">TopShopping</a> © {{date("Y")}} | Design and Developed By <a href="#">SoftNTechnology</a></p>
                 </div>
             </div>
         </div>
