@@ -25,6 +25,7 @@ class InqueryController extends Controller
         $inquery->message = $request->message;
         $inquery->save();
 
+        Mail::to('topshopping.com.au@gmail.com')->send(new InquirySubmit($inquery));
         Mail::to('yasirarfat1995@gmail.com')->send(new InquirySubmit($inquery));
 
         return back()->withSuccess('Thanks for submitting Inquery!');
