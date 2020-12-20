@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
     <title> @yield('title') </title>
+
+
     <style>
         * {
             font-family: 'Montserrat', sans-serif;
