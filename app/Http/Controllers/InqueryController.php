@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Inquery;
+use App\Mail\InquirySubmit;
+use Illuminate\Support\Facades\Mail;
 
 class InqueryController extends Controller
 {
@@ -22,6 +24,8 @@ class InqueryController extends Controller
         $inquery->subject = '';
         $inquery->message = $request->message;
         $inquery->save();
+
+        Mail::to('yasirarfat1995@gmail.com')->send(new InquirySubmit($inquery));
 
         return back()->withSuccess('Thanks for submitting Inquery!');
 
